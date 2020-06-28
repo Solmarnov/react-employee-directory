@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Craig Stevens",
+    "image": "./images/craig-stevens.png",
+    "occupation": "Sales",
+    "department": "Marketing"
+  },
+  {
+    "id": 2,
+    "name": "Gavin Phillips",
+    "image": "./images/gavin-phillips.png",
+    "occupation": "Workplace Relations Liaison Office",
+    "department": "HR"
+  },
+  {
+    "id": 3,
+    "name": "Magenta Adams",
+    "image": "./images/magenta-adams.png",
+    "occupation": "Project Manager",
+    "department": "Operations"
+  },
+  {
+    "id": 4,
+    "name": "Tracy Waddlesworth",
+    "image": "./images/tracy-waddlesworth.png",
+    "occupation": "Accountant",
+    "department": "Finance"
+  },
+  {
+    "id": 5,
+    "name": "Dean Yates",
+    "image": "./images/dean-yates.png",
+    "occupation": "Information Security Officer",
+    "department": "ICT"
+  },
+  {
+    "id": 6,
+    "name": "Susan Melts",
+    "image": "./images/susan-melts.png",
+    "occupation": "Receptionist",
+    "department": "Operations"
+  },
+  {
+    "id": 7,
+    "name": "Karen Wicks",
+    "image": "./images/karen-wicks.png",
+    "occupation": "Manager of Operations",
+    "department": "Operations"
+  },
+  {
+    "id": 8,
+    "name": "Todd Jefferson",
+    "image": "./images/todd-jefferson.png",
+    "occupation": "Senior Developer",
+    "department": "ICT"
+  },
+  {
+    "id": 9,
+    "name": "Adam Greenburg",
+    "image": "./images/adam-greenburg.png",
+    "occupation": "Analyst",
+    "department": "Marketing"
+  },
+  {
+    "id": 10,
+    "name": "Janet Weis",
+    "image": "./images/janet-weis.png",
+    "occupation": "Head of HR",
+    "department": "HR"
+  }
+]

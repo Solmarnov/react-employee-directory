@@ -7,16 +7,42 @@ class EmployeeListTable extends Component {
   state = {
     employees: employeeList,
     filterBy: "",
-    sortBy: ""
+    sortIcon: "fas fa-sort"
   };
 
   handleSort = e => {
-    console.log(e);
-    const sortBy = e.target.name;
-    // this.setState({
-    //   sortBy
-    // });
+    const sortBy = e.target.getAttribute("name");
+    let sortIcon = e.target.getAttribute("class");
+    const employees = this.sortEmployees(this.state.employees, sortBy, sortIcon);
+    sortIcon = this.switchSortIcon(sortIcon);
+    this.setState({ employees, sortIcon });
   };
+
+  sortEmployees = (employeeList, sortByKey, sortIcon) => {
+    const sortedEmployeeList = employeeList.sort((a, b) => {
+      let itemA = a[sortByKey].toLowerCase();
+      let itemB = b[sortByKey].toLowerCase();
+      if (sortIcon === "fas fa-sort" || sortIcon === "fas fa-sort-down") {
+        return (itemA < itemB) ? -1 : (itemA > itemB) ? 1 : 0;
+      } else {
+        return (itemA < itemB) ? 1 : (itemA > itemB) ? -1 : 0;
+      }
+    });
+    return sortedEmployeeList;
+  };
+  
+  switchSortIcon = sortIcon => {
+    switch (sortIcon) {
+      case "fas fa-sort":
+        return sortIcon = "fas fa-sort-up";
+      case "fas fa-sort-up":
+        return sortIcon = "fas fa-sort-down";
+      case "fas fa-sort-down":
+        return sortIcon = "fas fa-sort-up";
+      default:
+        return sortIcon = "fas fa-sort";
+    }
+  }
 
   handleFilter = e => {
     console.log(e);
@@ -28,11 +54,17 @@ class EmployeeListTable extends Component {
 
   render() {
     return (
-      <div>
-        <TableHead />
-        <TableBody 
-          employees={employeeList}
-        />
+      <div className="container">
+        <table className="table table-dark">
+          <TableHead 
+            handleSort={this.handleSort}
+            sortIcon={this.state.sortIcon}
+            handleFilter={this.handleFilter}
+          />
+          <TableBody 
+            employees={employeeList}
+          />
+        </table>
       </div>
     );
   }

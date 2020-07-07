@@ -1,10 +1,11 @@
 import React from 'react';
+import Title from '../Title';
 import './style.css';
 
 function Header() {
   return (
     <div className="header container text-center">
-      <h1 className="text-dark">React Employee Directory</h1>
+      <Title>React Employee Directory</Title>
     </div>
   )
 }

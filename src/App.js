@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from './components/Header/';
-import EmployeeListTable from './components/EmployeeListTable'
-import './App.css';
+import Home from './pages/Home';
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Header />
-      <EmployeeListTable />
+      <Home />
     </div>
   );
 }

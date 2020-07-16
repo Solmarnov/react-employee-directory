@@ -139,12 +139,10 @@ class Home extends Component {
   };
 
   handleInputChange = ({ target }) => {
-    console.log(target);
     const filterBy = "name";
     const value = target.value;
     this.setState({ filterValue: value });
     this.filterEmployees(this.employeeList, filterBy, value);
-    // this.filterEmployeeList(this.state.employees, filterBy, value);
   };
 
   filterEmployees = (employeeList, filterByKey, value) => {

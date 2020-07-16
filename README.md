@@ -1,7 +1,7 @@
 # React Employee Directory
-An employee using React! 
+An employee directory using React! 
 
-View an entire employee directory, sort by name, phone, occupation, or department. Filter the list of employees by name. 
+View an entire employee directory at once, sort by name, phone, occupation, or department. Filter the list of employees by name. 
 
 Visit the app at https://solmarnov.github.io/react-employee-directory/
 

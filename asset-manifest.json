@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react-employee-directory/static/css/main.f5094049.chunk.css",
+    "main.js": "/react-employee-directory/static/js/main.f691933c.chunk.js",
+    "main.js.map": "/react-employee-directory/static/js/main.f691933c.chunk.js.map",
+    "runtime-main.js": "/react-employee-directory/static/js/runtime-main.7a81436f.js",
+    "runtime-main.js.map": "/react-employee-directory/static/js/runtime-main.7a81436f.js.map",
+    "static/js/2.6bf72daa.chunk.js": "/react-employee-directory/static/js/2.6bf72daa.chunk.js",
+    "static/js/2.6bf72daa.chunk.js.map": "/react-employee-directory/static/js/2.6bf72daa.chunk.js.map",
+    "index.html": "/react-employee-directory/index.html",
+    "precache-manifest.803a93a720d9d0fa39f712db4026396a.js": "/react-employee-directory/precache-manifest.803a93a720d9d0fa39f712db4026396a.js",
+    "service-worker.js": "/react-employee-directory/service-worker.js",
+    "static/css/main.f5094049.chunk.css.map": "/react-employee-directory/static/css/main.f5094049.chunk.css.map",
+    "static/js/2.6bf72daa.chunk.js.LICENSE.txt": "/react-employee-directory/static/js/2.6bf72daa.chunk.js.LICENSE.txt",
+    "static/media/adam-greenburg.png": "/react-employee-directory/static/media/adam-greenburg.1bbdc4e0.png",
+    "static/media/craig-stevens.png": "/react-employee-directory/static/media/craig-stevens.00246726.png",
+    "static/media/dean-yates.png": "/react-employee-directory/static/media/dean-yates.bbd22a49.png",
+    "static/media/gavin-phillips.png": "/react-employee-directory/static/media/gavin-phillips.5e69244e.png",
+    "static/media/janet-weis.png": "/react-employee-directory/static/media/janet-weis.7c4b601f.png",
+    "static/media/karen-wicks.png": "/react-employee-directory/static/media/karen-wicks.868040fe.png",
+    "static/media/magenta-adams.png": "/react-employee-directory/static/media/magenta-adams.f9218000.png",
+    "static/media/susan-melts.png": "/react-employee-directory/static/media/susan-melts.d384eacf.png",
+    "static/media/todd-jefferson.png": "/react-employee-directory/static/media/todd-jefferson.22140f5a.png",
+    "static/media/tracy-waddlesworth.png": "/react-employee-directory/static/media/tracy-waddlesworth.d73ca7c8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a81436f.js",
+    "static/js/2.6bf72daa.chunk.js",
+    "static/css/main.f5094049.chunk.css",
+    "static/js/main.f691933c.chunk.js"
+  ]
+}
